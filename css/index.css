@@ -1,0 +1,583 @@
+.navbar{
+background-color: rgb(246, 223, 242);
+width: 100%;
+
+padding-inline: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+
+
+}
+body{
+    margin: 0;
+}
+
+
+.dd{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-items: center;
+   margin-top: 40px;
+  width: 500px;
+ 
+  
+  font-size: 18px;
+  
+}
+.title{
+    
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px
+}
+.title h1{
+    font-size: 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.one a{
+    text-decoration:underline;
+    color: blueviolet;
+
+}
+.two a {
+    text-decoration: none;
+    color:black;
+    transition: text-decoration 1s ,color 1s ;
+}
+ul:hover .two a {
+text-decoration:underline;
+color:blueviolet;
+
+}
+.three a{
+text-decoration: none;
+ color: black;
+transition: text-decoration 1s, color 3s;
+ 
+}
+
+ul:hover .three a{
+    text-decoration: underline;
+        color: blueviolet;
+        
+}
+.foure a{
+text-decoration: none;
+color: black;
+transition: text-decoration 1s, color 3s;
+}
+ul:hover .foure a{
+  text-decoration: underline;
+  color:blueviolet;
+
+}
+ .icon img{
+    width: 70px;
+    height: 45px;
+    padding: 30px;
+   
+    
+    
+ }
+ .photo img{
+    width: 500px;
+
+    
+    
+    
+ }
+ .photo{
+   background-color: white;
+   width: 505px;
+   padding-inline: 20px;
+   padding-block:20px ;
+    border: solid 2px rgb(148, 145, 145);
+   position: relative;
+ }
+.header{
+    margin: 200px auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2px;
+    
+}
+.pargarph{
+    
+    width: 600px;
+}
+.bt{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.bt li{
+    border: 2px solid white;
+    background-color: rgb(149, 90, 202);
+    border-radius: 10px;
+    padding: 7px 7px;
+}
+h2{
+    
+    text-align: center;
+    font-size: 40px;
+    color:dimgrey;
+    font-weight: 900;
+
+}
+h2 span{
+    color: rgb(176, 120, 228);
+}
+.bt1 p{
+    
+    font-size: 35px;
+    color:rgb(53, 52, 52);
+}
+.text{
+    
+    text-align: center;
+    
+}
+.text span{
+    margin-inline: 10px;
+}
+.a{
+    font-size: 20px;
+    font-weight:bold;
+}
+.b{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.c{
+background-color: rgb(80, 75, 84);
+color: red;
+border-radius: 10px;
+font-size: 15px;
+}
+.bt2{
+    
+    text-align: center;
+}
+ .cart button{
+    padding-inline: 98px;
+    margin-bottom: 15px;
+    padding-block:15px ;
+    font-size:18px ;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: rgb(166, 109, 219);
+}
+ .Wishlist button {
+     padding-inline: 110px;
+     padding-block:15px ;
+    font-size: 18px;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color: white;
+ }
+ .section-zero{
+    margin: 200px  auto;
+padding: 100px;
+
+ }
+ .section-1{
+    background-color: white;
+    
+ }
+ .section-1 .all-div{
+    margin-inline: 20px;
+ }
+ .text-1{
+    text-align: center;
+    background-color: rgb(238, 235, 240);
+    margin-bottom: 50px;
+ }
+.text-1 h2{
+    
+    font-size: 30px;
+    
+    
+}
+.text-1 p{
+
+    
+    font-size: 20px;
+}
+.all-div{
+    
+    border-radius: 10px;
+    border: 2px solid rgb(206, 195, 195);
+}
+.d-flex{
+    display: flex;
+    gap:90px;
+    justify-content: center;
+    
+}
+.a-1{
+
+margin-top: 20px;
+font-size: 25px;
+font-weight: bold;
+color: rgb(35, 32, 32);
+}
+   .b-1 h3 ,.c-1 h3,.d-1 h3,.e-1 h3{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    
+   }
+   .b-1 p,.c-1 p,.d-1 p,.e-1 p{
+    color: darkgray;
+    text-align: center;
+   }
+   .all-1{
+    border-bottom: solid 2px rgb(171, 166, 166);
+   }
+   .all-2{
+    padding-inline: 10px;
+    padding-block:20px ;
+    border-bottom: solid 1px rgb(171, 166, 166);
+    }
+
+   
+   .all-2  div{
+    font-size: 20px;
+    color:black;
+   }
+   .all-3{
+    padding-inline: 10px;
+        padding-block: 20px;
+        border-bottom: solid 1px rgb(171, 166, 166);
+   }
+   .all-3 div {
+    font-size: 20px;
+    color: black;
+   }
+   .all-4 {
+       padding-inline: 10px;
+       padding-block: 20px;
+       border-bottom: solid 1px rgb(171, 166, 166);
+   }
+
+   .all-4 div {
+       font-size: 20px;
+       color: black;
+   }
+ .all-5 {
+padding-inline: 10px;
+  padding-block: 20px;
+ border-bottom: solid 1px rgb(171, 166, 166);
+        }
+ .all-5 div {
+ font-size: 20px;
+color: black;
+ }
+ .all-6{
+     padding-inline: 10px;
+     padding-block: 20px;
+     border-bottom: solid 1px rgb(171, 166, 166);
+ }
+
+ .all-6 div {
+     font-size: 20px;
+     color: black;
+ }
+  .all-7 {
+      padding-inline: 10px;
+      padding-block: 20px;
+      border-bottom: solid 1px rgb(171, 166, 166);
+  }
+
+  .all-7 div {
+      font-size: 20px;
+      color: black;
+  }
+   .all-8 {
+       padding-inline: 10px;
+       padding-block: 20px;
+       border-bottom: solid 1px rgb(171, 166, 166);
+   }
+
+   .all-8 div {
+       font-size: 20px;
+       color: black;
+   }
+ .all-9 {
+     padding-inline: 10px;
+     padding-block: 20px;
+     border-bottom: solid 1px rgb(171, 166, 166);
+ }
+
+ .all-9 div {
+     font-size: 20px;
+     color: black;
+ }
+ .all-10 {
+     padding-inline: 10px;
+     padding-block: 20px;
+     border-bottom: solid 1px rgb(171, 166, 166);
+ }
+
+ .all-10 div {
+     font-size: 20px;
+     color: black;
+ }
+ .reviews-section-zero{
+    margin: 50px auto;
+    background-color: blue;
+ }
+ .reviews-secction-one{
+    background-color:white;
+    text-align: center;
+    
+ }
+ .reviews-secction-one h2{
+    font-size: 40px;
+    font-weight:bold;
+    color: black;
+ }
+ .reviews-secction-one p {
+font-size: 22px;
+color: black;
+text-align: center;
+ }
+ .reviews-secction-two{
+
+    width: 300px;
+    border-radius: 10px;
+    border:solid gray 2px;
+    
+ }
+ 
+    
+ 
+ .div-1 ,.div-2{
+    font-weight: bold;
+font-size: 30px;
+
+ }
+ .div-1 p ,.div-2 p{
+    font-size: 15px;
+    font-weight: 400;
+    
+ }
+ .review-11 ,.review-22 ,.review-33 ,.review-44{
+    
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+ }
+ 
+ 
+ 
+ .tex-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+ }
+ .d-flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.d-flex-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex-right-right{
+    display: flex;
+    flex-wrap:wrap ;
+    
+}
+.text-left .tex{
+    
+    text-align: center;
+    width: 180px;
+}
+.text-left .tex h4{
+font-weight: bold;
+font-size: 20px;
+}
+.text-left .tex p{
+    font-size:15px;
+}
+.text-right{
+    
+    width: 150px;
+    
+    
+}
+.text-right span{
+    border: white solid 1px;
+    border-radius: 5px;
+    
+    font-size: 15px;
+
+}
+.text-right p{
+    font-size: 18px;
+}
+.text-center{
+    width: 600px;
+    
+    margin: auto;
+    }
+
+.text-center p{
+    text-align: center;
+    
+}
+.section-zero{
+    background-color: azure;
+}
+.main-big{
+    margin:  50px auto;
+    
+}
+.main-med{
+    background-color: rgb(248, 218, 238);
+}
+.main-small{
+    
+}
+.main-med h2{
+
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+}
+.main-med p{
+ 
+ text-align: center;
+ font-weight: 400;
+ font-size: 20px;
+}
+.phot img{
+    width:250px;
+}
+.small-1,.small-2,.small-3 ,.small-4{
+    border:solid gray 2px;
+    width:250px;
+    height:500px;
+    
+}.small-1 h3 ,.small-2 h3, .small-3 h3, .small-4 h3{
+text-align: center;
+
+}
+.small-1 p,.small-2 p,.small-3 p,.small-4 p{
+    
+    text-align: center;
+}
+.t1 span{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+} 
+.button-1 button{
+    background-color:blueviolet;
+    border-radius: 40px;
+    padding: 30px 30px;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ .d-flex-parent-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.big-button{
+    width: 180px;
+    height: 30px;
+   margin-inline: 500px;
+   background-color:white;
+   padding-inline:20px ;
+   padding-block: 20px;
+   text-align: center;
+   font-size: 20px;
+   border-radius: 40px;
+   border: solid 2px rgb(104, 102, 102);
+   margin-top: 20px;
+}
+.footer-big{
+    margin: 50px auto;
+    background-color: rgb(17, 2, 36);
+}
+
+.foot-4 ,.foot-2 ,.foot-3 ,.foot-1{
+    
+    width: 300px;
+    text-align: center;
+}
+.foot-4 h3 ,.foot-2 h3 ,.foot-3 h3 ,.foot-1 span{
+font-size: 25px;
+color: white;
+}
+.foot-4 ul,.foot-2 ul ,.foot-3 ul{
+    font-size: 20px;
+}
+.footer-small li{
+    padding-block: 10px;
+    color: dimgray;
+}
+.foot-1{
+    direction: ltr;
+}
+.foo-img{
+    width: 100px;
+    height:50 px;
+}
+.foot-1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.foo-2 img{
+    width: 50px;
+    height: 25px;
+    
+}
+.foo-1 img {
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+
+}
+.foo-1{
+    justify-content: flex-start;
+}
+.foo-1 span{
+    
+    margin-top: 10px;
+}
+.final-1 p{
+    margin-top: 40px;
+    color: white;
+}
